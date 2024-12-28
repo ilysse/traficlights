@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/timeDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="monospace"/>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="#333333"
+        android:padding="16dp">
+
+        <View
+            android:id="@+id/redLight"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@color/gray"
+            android:layout_gravity="center" />
+
+        <View
+            android:id="@+id/yellowLight"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@color/gray"
+            android:layout_gravity="center" />
+
+        <View
+            android:id="@+id/greenLight"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@color/gray"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/scenario1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scénario 1"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:id="@+id/scenario2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scénario 2"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
